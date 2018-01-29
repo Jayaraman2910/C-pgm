@@ -2,9 +2,9 @@
 #include<conio.h>
 int main()
 {
-int b;
+int n;
 printf("Enter the Year");
-scanf("%d",&b);
+scanf("%d",&n);
 if(a%4==0)
 printf("\nThe given year is leap year");
 else 
