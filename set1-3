@@ -1,12 +1,14 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-char ch;
+char b;
 printf("Enter the character to check Vowel or Consonant");
-scanf("%c",&ch);
-if(ch=='a',ch=='A',ch=='e',ch=='E',ch=='i',ch=='I',ch=='o',ch=='O',ch=='u',ch=='U')
+scanf("%c",&b);
+if(b=='a',b=='A',b=='e',b=='E',b=='i',b=='I',b=='o',b=='O',b=='u',b=='U')
 printf("the character is a Vowel");
 else 
 printf("the character is a Consonant");
+getch();
 return 0;
 }
