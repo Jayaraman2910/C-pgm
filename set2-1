@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+printf("Enter the values");
+scanf("%d",&a);
+printf(Enter the power value");
+scanf("%d",&b);
+c=pow(a,b);
+printf("The power value is %d");
+getch();
+}
