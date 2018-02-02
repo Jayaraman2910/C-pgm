@@ -2,9 +2,9 @@
 #include<math.h>
 int main()
 {
-int a,b,c;
-scanf("%d%d",&a,&b);
+int d,e,f;
+scanf("%d%d",&d,&e);
 c=pow(a,b);
-printf("%d",c);
+printf("%d",f);
 return 0;
 }
