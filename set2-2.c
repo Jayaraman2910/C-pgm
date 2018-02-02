@@ -5,7 +5,6 @@ int e,g,h,n=0;
 printf("\n enter the number");
 scanf("%d",&e);
 g=e;
-
 while(g!=0)
 {
 h=g%10;
