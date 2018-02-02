@@ -1,18 +1,18 @@
 #include<stdio.h>
 void main()
 {
-int a,b,c,d=0;
+int e,g,h,n=0;
 printf("\n enter the number");
-scanf("%d",&a);
-b=a;
+scanf("%d",&e);
+g=e;
 
-while(b!=0)
+while(g!=0)
 {
-c=b%10;
-d=d*10+c;
-a=a/10;
+h=g%10;
+n=n*10+h;
+e=e/10;
 }
-if(b==d)
+if(g==n)
 printf("\n the given number is palindrome");
 else
 printf("\n the number is not a palindrome");
