@@ -2,10 +2,10 @@
 #include<conio.h>
 void main()
 {
-int a,b,i;
+int c,d,i;
 printf("\n Enter the values");
-scanf("%d%d",&a,&b);
-for(i=a+1;i<b;i++)
+scanf("%d%d",&c,&d);
+for(i=c+1;i<d;i++)
 {
 if(i%2==0)
 {
