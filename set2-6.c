@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int i,b,c,d,e=0;
+int i,k,l,m,e=0;
 printf("\n Enter the range....");
-scanf("%d%d",&b,&c);
-for (i=b;i<=c;i++)
+scanf("%d%d",&k,&l);
+for (i=k;i<=l;i++)
 {
-     for(d=2; d<=i/2; ++d)
+     for(d=2; m<=i/2; ++m)
 {
-if(i%d==0)
+if(i%m==0)
         {
             e=1;
             break;
