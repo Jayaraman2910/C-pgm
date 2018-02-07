@@ -1,22 +1,27 @@
+
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-int i,k,l,m,e=0;
-printf("\n Enter the range....");
-scanf("%d%d",&k,&l);
-for (i=k;i<=l;i++)
+int e,f,g=0,i,d;
+scanf("%d",&a);
+d=e;
+for(i=1;a>10;i++)
 {
-     for(d=2; m<=i/2; ++m)
-{
-if(i%m==0)
-        {
-            e=1;
-            break;
-        }
+f=e%10;
+e=e/10;
+g=g+pow(f,3);
 }
-
-    if (e==0)
-printf("\n%d",i);
+c=c+pow(a,3);
+if(d==g)
+{
+printf("YES");
+}
+else
+{
+printf("NO");
 }
 return 0;
+}
+
 }
