@@ -8,9 +8,9 @@ printf("Enter the string");
 scanf("%s",a);
 printf("Enter the string");
 scanf("%s",b);
-a1=strlen(a);
-b1=strlen(b);
-if(a1>b1) 
+s1=strlen(a);
+s2=strlen(b);
+if(s1>s2) 
 {
 printf("The string is....: %s",a);
 }
