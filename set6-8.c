@@ -9,5 +9,5 @@ void main()
     k = i ^ k;
     i = i ^ k;
     printf("value of i=%d k=%d after swapping", i, k);
-    
+    getch();
  }
