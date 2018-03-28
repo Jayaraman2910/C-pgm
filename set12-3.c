@@ -2,19 +2,17 @@
 #include<conio.h>
 void main()
 {
-int a[50],b,c,i,count=0;
-scanf("%d%d",&b,&c);
-for(i=0;i<b;i++)
+int a[10],n,i,k,count=0;
+printf("Enter the n and k");
+scanf("%d %d",&n,&k);
+for(i=0;i<n;i++)
 {
-scanf("%d",&a[i]);
+    scanf("%d",&a[i]);
 }
-for(i=0;i<b;i++)
-{
-if(a[i]==c)
-{
-count++;
-}
-}
-printf("%d time",count);
-getch();
-}
+for(i=0;i<n;i++)
+    if(a[i]==k)
+    {
+    count++;
+    }
+  getch();
+    printf("%d",count);
